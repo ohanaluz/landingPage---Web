@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="script.js"></script>
+
+    
+    <title>Cursos para devs</title>
+</head>
+<body>
+    <nav>
+        <ul>
+           
+        <li><a href="#">Home</a></li>
+        <li><a href="#carrossel">Carrossel</a></li>
+        <li><a href="#formulario">Formulário</a></li>
+        <li><a href="#footer">Footer</a></li>
+            </ul>
+    </nav>
+    <header>
+        <h1>
+            Faça cursos para aprimorar seu conhecimentos como desenvolvedor web.
+        </h1>
+        <h3>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nisi ante, lobortis ac grav.
+        </h3>
+        <a href="#formulario">
+        <button id="carrossel"> 
+            Clique aqui para se cadastrar.
+        </button> </a>
+    </header>
+    <section class="content" >
+        <div class="carousel">
+            <ul>
+            <li>
+                <input type="radio" id="slide1" name="slide" checked>
+                <label for="slide1"></label>
+                <img src="images/css.png" alt="CSS">
+            </li>
+            <li>
+                <input type="radio" id="slide2" name="slide">
+                <label for="slide2"></label>
+                <img src="images/html.png" alt="HTML">
+
+            </li>
+            <li>
+                <input type="radio" id="slide3" name="slide">
+                <label for="slide3"></label>
+                <img src="images/js.png" alt="JavaScript">
+
+            </li>
+        </ul>
+    </div>
+
+      
+        <div class="text-container">
+            <h1>Conheça mais sobre o nosso serviço</h1>
+            <h3>Phasellus facilisis neque a ante rutrum, non ornare justo pulvinar. Aenean massa magna, ultrices eget mattis sed, feugiat at magna.Phasellus facilisis neque a ante rutrum, non ornare justo pulvinar. Aenean massa magna, ultrices eget mattis sed, feugiat at magna.</h3>
+        </div>
+    </section>
+    <aside id="formulario">
+        <form>
+            <h1>
+                Preencha para receber mais informações sobre o curso.
+            </h1>
+            
+            <input type="text" id="nome" name="nome" placeholder="Insira seu nome completo:" required>
+
+            <input type="email" id="email" name="email" placeholder="Insira seu email:" required>
+
+            <label for="exp">
+                Você já possui experiência com desenvolvimento web?
+            </label>
+            <div class="radio-group">
+                <input type="radio" id="sim" name="exp" value="sim">
+                <label for="sim">Sim</label>
+            </div>
+            <div class="radio-group">
+                <input type="radio" id="nao" name="exp" value="nao">
+                <label for="nao">Não</label>  
+            </div>
+        
+            <label for="cursoDesejado">O que você deseja aprender ou aprimorar com os nossos cursos?</label>
+        
+            <div class="checkbox-group">
+                <input type="checkbox" id="curso1" name="curso1" value="HTML">
+                <label for="curso1">HTML</label>
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" id="curso2" name="curso2" value="CSS">
+                <label for="curso2">CSS</label>
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" id="curso3" name="curso3" value="JavaScript">
+                <label for="curso3">JavaScript</label>
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" id="curso4" name="curso4" value="React">
+                <label for="curso4">React</label>  
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" id="curso5" name="curso5" value="Angular">
+                <label for="curso5">Angular</label> 
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" id="curso6" name="curso6" value="Vue">
+                <label for="curso6">Vue</label>
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" id="curso7" name="curso7" value="Webdesign">
+                <label for="curso7">Web design</label>  
+            </div>
+        
+            <textarea id="obs" name="obs" rows="4" cols="50" placeholder="Insira um comentário ou uma observação"></textarea>
+        
+            <input type="submit" value="Enviar">
+                
+        </form>
+    </aside>
+    <footer id="footer">
+        <a href="#">
+        <div class="scrollup">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M8 256C8 119 119 8 256 8s248 111 248 248-111 248-248 248S8 393 8 256zm292 116V256h70.9c10.7 0 16.1-13 8.5-20.5L264.5 121.2c-4.7-4.7-12.2-4.7-16.9 0l-115 114.3c-7.6 7.6-2.2 20.5 8.5 20.5H212v116c0 6.6 5.4 12 12 12h64c6.6 0 12-5.4 12-12z"></path></svg>
+        </div>
+    </a>
+    <h1>Opiniões de outros usuários</h1>
+    <div id="comentarios">
+    <div class="card">
+        <img src="images/img.jpg" alt="John" style="width:80%">
+        <h1>John Doe</h1>
+            <p class="title">CEO & Founder, Example</p>
+            <p>Recomendo esse curso. Fiz todas as modalidades e já uso elas em minhas aplicações.</p>
+                <a href=""><i class="fa fa-dribbble"></i></a>
+                <a href=""><i class="fa fa-twitter"></i></a>
+                <a href=""><i class="fa fa-linkedin"></i></a>
+                <a href=""><i class="fa fa-facebook"></i></a>
+      </div>
+      <div class="card">
+        <img src="images/img.jpg" alt="John" style="width:80%">
+            <h1>John Doe</h1>
+                <p class="title">CEO & Founder, Example</p>
+                <p>Recomendo esse curso. Fiz todas as modalidades e já uso elas em minhas aplicações.</p>
+                    <a href=""><i class="fa fa-dribbble"></i></a>
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+      </div>
+      <div class="card">
+        <img src="images/img.jpg" alt="John" style="width:80%">
+            <h1>John Doe</h1>
+                <p class="title">CEO & Founder, Example</p>
+                <p>Recomendo esse curso. Fiz todas as modalidades e já uso elas em minhas aplicações.</p>
+                    <a href=""><i class="fa fa-dribbble"></i></a>
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+      </div>
+    </div>
+    </footer>
+</body>
+</html>
